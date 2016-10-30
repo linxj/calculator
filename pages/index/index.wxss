@@ -1,0 +1,114 @@
+/**index.wxss**/
+/*.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}*/
+
+ul{list-style-type:none;}
+
+input{
+  background:white;
+}
+
+a{
+	color:#ddd;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	width:48px;
+	height:40px;
+	line-height:35px;
+	text-align:center; 
+	font-family:"微软雅黑";
+}
+
+a:hover{
+	color:#fff;
+	border:1px solid #2dc770;
+	background:#333;
+}
+#calc{
+  padding-left:20px;
+	height:400px;
+	width:240px;
+	background:#000;
+	margin:0px auto;
+    text-align:center;
+	}
+#calc p,#calc ul,#calc ul li{
+	margin:0;
+	padding:0;
+}
+
+#calc ul{
+	position:relative;
+	zoom:1;
+	padding:0 0 17px 8px;
+}
+
+#calc ul li{
+	float:left;
+	width:48px;
+	height:40px;
+	margin:6px 6px 0 0;
+	border-radius:2px;
+	border:1px solid #666;
+	background:#222;	
+}
+#calc ul li:hover{
+	border:1px solid #888;
+	box-shadow:2px 2px 2px 0px #666;
+}
+
+
+#calc ul li.btn-1 a{
+	color:#2dc770;
+}
+
+
+#calc ul li.btn-2{
+	position:absolute; 	
+    top:196px;
+	right:8px;
+	width:220px;
+}
+
+#calc ul li.btn-2 a{
+	color:#2dc770;
+	background:#444;
+	width:220px;
+}
+
+#calc ul li.btn-2 a:hover{
+	border:1px solid #2dc770;
+	background:#555;
+}
+
+
+.f-text,.r-text{
+	height:30px;
+	margin:10px 0;
+	width:220px;
+}
+
+p{
+	color:#fff;
+	line-height:40px;
+}
+

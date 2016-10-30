@@ -1,0 +1,25 @@
+<!--index.wxml-->
+  <view class="usermotto" id="calc">
+    <p >简单计算器</p >
+    <input class="r-text" placeholder="Here shows result"/>
+    <input class="f-text" placeholder="" auto-focus/>
+    <ul >
+      <li class="btn-num" ><a bindtap="pressBtn" data-num="1" href=" ">1</a ></li>
+      <li class="btn-num" ><a bindtap="pressBtn" data-num="2" href="#">2</a ></li>
+      <li class="btn-num" ><a bindtap="pressBtn" data-num="3" href="#">3</a ></li>
+      <li class="btn-1 btn-add"><a href="#" bindtap="pressPlus">+</a ></li>
+      <li class="btn-num" ><a bindtap="pressBtn" data-num="4" href="#">4</a ></li>
+      <li class="btn-num" ><a bindtap="pressBtn" data-num="5" href="#">5</a ></li>
+      <li class="btn-num" ><a bindtap="pressBtn" data-num="6" href="#">6</a ></li>
+      <li class="btn-1 btn-minus"><a href="#">-</a ></li>
+      <li class="btn-num" ><a bindtap="pressBtn" data-num="7" href="#">7</a ></li>
+      <li class="btn-num" ><a bindtap="pressBtn" data-num="8" href="#">8</a ></li>
+      <li class="btn-num" ><a bindtap="pressBtn" data-num="9" href="#">9</a ></li>
+      <li class="btn-1 btn-times"><a href="#">*</a ></li>
+      <li class="btn-c"><a href="#" bindtap="pressClean">c</a ></li>
+      <li class="btn-num" ><a href="#" data-num="0">0</a ></li>
+      <li class="btn-num"><a href="#">.</a ></li>
+      <li class="btn-1 btn-divide"><a href="#">÷</a ></li>
+      <li class="btn-2"><a href="#" bindtap="pressEql">=</a ></li>
+    </ul>
+</view>
